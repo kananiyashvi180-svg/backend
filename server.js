@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/Mongo_assign")
+mongoose.connect("mongodb://localhost:27017/Assignment_1")
 .then(()=>console.log("Mongodb connected successfully"))
 .catch((error)=>console.log("Mongodb connection failed",error))
 
